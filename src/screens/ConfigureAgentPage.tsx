@@ -351,7 +351,7 @@ const ConfigureAgentPage: React.FC = () => {
                     </div>
                     <span className="font-bold text-gray-900 text-sm sm:text-base">Google Calendar Integration</span>
                   </div>
-                  <span className="self-start sm:self-auto px-3 py-1.5 bg-gradient-to-r from-blue-500 to-blue-600 text-white text-xs font-bold rounded-full shadow-md hover:shadow-lg hover:scale-105 transition-all duration-300">
+                  <span className="self-start sm:self-auto px-3 py-1.5 text-orange-500 text-xs font-bold rounded-full shadow-md hover:shadow-lg hover:scale-105 transition-all duration-300">
                     PREMIUM
                   </span>
                 </div>

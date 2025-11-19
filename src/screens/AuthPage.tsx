@@ -43,7 +43,7 @@ const AuthPage: React.FC = () => {
           {/* Form */}
           <div className="space-y-5">
             {!isLogin && (
-              <div className="grid grid-cols-2 gap-4 fade-in-up delay-100">
+              <div className="grid grid-cols-2 gap-4">
                 <div className="group">
                   <label className="block text-sm font-semibold text-gray-700 mb-2">
                     First Name
@@ -51,7 +51,7 @@ const AuthPage: React.FC = () => {
                   <input
                     type="text"
                     placeholder="John"
-                    className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-all duration-300 hover:border-gray-300"
+                    className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent hover:border-gray-300"
                   />
                 </div>
                 <div className="group">
@@ -61,7 +61,7 @@ const AuthPage: React.FC = () => {
                   <input
                     type="text"
                     placeholder="Doe"
-                    className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-all duration-300 hover:border-gray-300"
+                    className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent hover:border-gray-300"
                   />
                 </div>
               </div>
@@ -90,14 +90,14 @@ const AuthPage: React.FC = () => {
             </div>
 
             {!isLogin && (
-              <div className="group fade-in-up delay-100">
+              <div className="group">
                 <label className="block text-sm font-semibold text-gray-700 mb-2">
                   Confirm Password
                 </label>
                 <input
                   type="password"
                   placeholder="••••••••"
-                  className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-all duration-300 hover:border-gray-300"
+                  className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent hover:border-gray-300"
                 />
               </div>
             )}
