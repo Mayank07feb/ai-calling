@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    "target": "ESNext",                   // Modern JS output
+    "module": "ESNext",                   // Use ES Modules
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "allowJs": false,                     // Only TS/TSX files
+    "checkJs": false,
+    "jsx": "react-jsx",                   // JSX transform
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+
+    /* Strict Type Checking */
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+
+    /* Module Resolution */
+    "moduleResolution": "Node",           // Key to resolve .ts/.tsx without extensions
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* Performance & Compatibility */
+    "skipLibCheck": true,
+    "useDefineForClassFields": true
+  },
+
+  "include": ["src"],                      // All your TSX/TS files
+  "exclude": ["node_modules", "dist"]      // Exclude build & dependencies
+}
