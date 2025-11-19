@@ -6,6 +6,7 @@ import App from './App';
 // Make sure TypeScript knows that `document.getElementById('root')` exists
 const container = document.getElementById('root');
 
+
 if (!container) {
   throw new Error('Root container missing in index.html');
 }
